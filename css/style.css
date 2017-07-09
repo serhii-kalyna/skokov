@@ -102,6 +102,7 @@
 	height: 100px;
 	cursor: pointer;
 	background: url(../img/a17.jpg) no-repeat;
+	z-index: 10;
 	/*overflow: hidden;*/
 	overflow: visible;
 }
