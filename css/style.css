@@ -1,0 +1,579 @@
+#container{
+	margin: 0 auto;
+	width: 1633px;
+	height: 2796px;
+	background-color: #f6f6f6; 
+	border: 16px solid #fff;
+}
+
+#header{
+	width: 1633px;
+	height: 370px;
+	/*border: 1px solid black;*/
+}
+
+.logo{
+	float: left;
+	margin-top: 24px;
+	margin-left: 121px;
+}
+
+#header-menu{
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 74px;
+	width: 700px;
+}
+
+#header-menu li{
+	float: left;
+	margin: 0 20px;
+}
+
+#header-menu > li.active > a{
+	background-color: #ffea00;
+}
+
+#header-menu a{
+	font: 16px "CenturyGothicRegular";
+	padding: 25px 15px;
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+
+#header-menu a:hover{
+	text-decoration: underline;
+}
+
+.header-img{
+	float: left;
+	margin-top: 21px;
+}
+
+#header p.img-label{
+	position: absolute;
+	font: 35px "CenturyGothicRegular";
+	width: 280px;
+	padding: 13px 21px 15px 19px;
+	background-color: #424146;
+	color: #c0b126;
+	margin-top: 201px;
+	margin-left: 120px;
+}
+
+#main{
+	width: 1633px;
+	height: 1835px;
+	/*border: 1px solid black;*/
+}
+
+#project{
+	width: 1150px;
+	height: 1800px;
+	/*border: 1px solid black;*/
+	float: left;
+}
+
+#project-slider{
+	width: 1130px;
+	height: 780px;
+	margin-top: 19px;
+	margin-left: 1px;
+}
+
+/* jssor slider arrow navigator skin 05 css */
+/*
+.jssora05l                  (normal)
+.jssora05r                  (normal)
+.jssora05l:hover            (normal mouseover)
+.jssora05r:hover            (normal mouseover)
+.jssora05l.jssora05ldn      (mousedown)
+.jssora05r.jssora05rdn      (mousedown)
+.jssora05l.jssora05lds      (disabled)
+.jssora05r.jssora05rds      (disabled)
+*/
+
+.jssora05l, .jssora05r {
+	display: block;
+	position: absolute;
+	/* size of arrow element */
+	width: 46px;
+	height: 100px;
+	cursor: pointer;
+	background: url(/img/a17.jpg) no-repeat;
+	/*overflow: hidden;*/
+	overflow: visible;
+}
+
+.jssora05l { background-position: 0px 0px; }
+.jssora05r { background-position: -46px 0px; }
+.jssora05l:hover { background-position: -92px 0px; }
+.jssora05r:hover { background-position: -138px 0px; }
+.jssora05l.jssora05ldn { background-position: -92px 0px; }
+.jssora05r.jssora05rdn { background-position: -138px 0px; }
+.jssora05l.jssora05lds { background-position: 0px 0px; opacity: .3; pointer-events: none; }
+.jssora05r.jssora05rds { background-position: -46px 0px; opacity: .3; pointer-events: none; }
+
+.jssort01 .p {    position: absolute;    top: 0px;    left: 0;    width: 131px;    height: 140px;}
+.jssort01 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}
+.jssort01 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}
+.jssort01 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}
+.jssort01 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}
+.jssort01 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}
+* html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c { width /**/: 72px;    height /**/: 72px;}
+
+/*---------slider---------------*/
+
+#project h4.text-label{
+	font: bold 17px "CenturyGothicRegular";
+	width: 204px;
+	padding: 6px 18px 5px 18px;
+	text-align: center;
+	background-color: #424147;
+	color: #ffea00;
+	margin-top: 29px;
+	margin-left: 41px;
+}
+
+#project p{
+	font: 17px "CenturyGothicRegular";
+	width: 1070px;
+	color: #424147;
+	margin-top: 20px;
+	margin-left: 40px;
+	line-height: 29px;
+}
+
+.line{
+	margin-top: 86px;
+	background-color: #cdcdcd;
+	width: 1050px;
+	margin-left: 40px;
+	height: 1px;
+}
+
+#project-img{
+	margin-top: 30px;
+	margin-left: 41px;
+}
+
+#project-img img{
+	float: left;
+	margin-right: 15px;
+}
+
+/*-------------SIDEBAR---------------------------*/
+
+#sidebar{
+	float: right;
+	width: 473px;
+	height: 1350px;
+	/*border: 1px solid black;*/
+}
+
+#details{
+	background-color: #424147;
+	width: 473px;
+	height: 525px;
+}
+
+#details p{
+	padding-top: 30px;
+	padding-left: 35px;
+	font: 20px "CenturyGothicRegular";
+	font-weight: 500;
+	color: #ffea00;
+}
+
+#details-menu{
+	margin-top: 30px;
+	margin-left: 35px;
+}
+
+#details-menu ul{
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+#details-menu li{
+	display: block;
+	margin-bottom: 10px;
+}
+
+#details-menu img{
+	margin-right: 15px;
+}
+
+#details-menu span{
+	position: absolute;
+	margin-top: 5px;
+	width: 350px;
+}
+
+#details-menu a{
+	font: 16px "CenturyGothicRegular";
+	text-decoration: none;
+	font-weight: 500;
+	color: #fff;
+}
+
+#details-menu a:hover{
+	text-decoration: underline;
+}
+
+/*-------------posts--------------------*/
+
+#popular-posts{
+	background-color: #424147;
+	width: 473px;
+	height: 525px;
+	margin-top: 31px;
+}
+
+#popular-posts p{
+	padding-top: 30px;
+	padding-left: 35px;
+	font: 20px "CenturyGothicRegular";
+	font-weight: 500;
+	color: #ffea00;
+}
+
+#post-menu{
+	margin-top: 30px;
+	margin-left: 35px;
+}
+
+#post-menu ul{
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+#post-menu li{
+	display: block;
+	margin-bottom: 10px;
+}
+
+#post-menu img{
+	margin-right: 10px;
+}
+
+#post-menu img.heart{
+	position: absolute;
+	margin-top: 59px;
+	margin-left: 265px;
+}
+
+#post-menu p{
+	position: absolute;
+	margin-left: 80px;
+	margin-top: -110px;
+	width: 305px;
+	color: #fff;
+}
+
+#post-menu span{
+	position: absolute;
+	float: left;
+	font: bold 12px "CenturyGothicRegular";
+	color: #ffea00;
+	margin-top: 57px;
+	margin-left: 171px;
+	width: 100px;
+}
+
+#post-menu p.like{
+	position: absolute;
+	font: bold 12px "CenturyGothicRegular";
+	color: #ffea00;
+	margin-top: -49px;
+	margin-left: 355px;
+	width: 50px;
+}
+
+#post-menu a{
+	font: 16px "CenturyGothicRegular";
+	text-decoration: none;
+	font-weight: 500;
+	color: #fff;
+}
+
+#post-menu a:hover{
+	text-decoration: underline;
+}
+
+/*-------------tags---------------*/
+
+#tags{
+	background-color: #424147;
+	width: 473px;
+	height: 194px;
+	margin-top: 31px;
+}
+
+#tags p{
+	padding-top: 30px;
+	padding-left: 35px;
+	font: 20px "CenturyGothicRegular";
+	font-weight: 500;
+	color: #ffea00;
+}
+
+#tag-menu{
+	margin-top: 30px;
+	margin-left: 35px;
+}
+
+#tag-menu ul{
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+#tag-menu li{
+	display: block;
+	margin-bottom: 10px;
+	margin-right: 3px;
+	float: left;
+}
+
+#tag-menu a{
+	font: bold 16px "CenturyGothicRegular";
+	text-decoration: none;
+	color: #424147;
+	padding: 4px 7px;
+	background-color: #ffea00;
+}
+
+#tag-menu a:hover{
+	text-decoration: underline;
+}
+
+/*========/SIDEBAR==========*/
+
+#footer{
+	clear: both;
+	height: 500px;
+	width: 1633px;
+	margin-top: 22px;
+	/*border: 1px solid black;*/
+	background-color: #414146;
+}
+
+#footer h3{
+	font: bold 20px "CenturyGothicRegular";
+	color: #fff;
+}
+
+#footer-box{
+	margin-left: 118px;
+	height: 470px;
+	width: 1500px;
+}
+
+#block-about{
+	width: 420px;
+	height: 468px;
+	float: left;
+	margin-right: 80px;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+#block-about p{
+	font: bold 16px "CenturyGothicRegular";
+	line-height: 21px;
+	color: #fff;
+}
+
+#block-about p.more-btn{
+	font: bold 16px "CenturyGothicRegular";
+	color: #fff;
+	width: 100px;
+	background-color: #000;
+	padding: 9px 10px;
+	margin-top: 30px;
+	text-align: center;
+	border-bottom: 3px solid #eeda00;
+}
+
+#block-about p.more-btn:hover{
+	border-bottom: none;
+	border-bottom: 3px solid #414146;
+	cursor: pointer;
+}
+
+#block-about h4{
+	font: bold 20px "CenturyGothicRegular";
+	color: #fff;
+	margin-top: 37px;
+	margin-bottom: 19px;
+}
+
+#block-about img{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+#block-tweets{
+	width: 550px;
+	height: 465px;
+	float: left;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+#block-tweets img{
+	margin-right: 19px;
+	float: left;
+	margin-top: 13px;
+}
+
+#block-tweets p{
+	font: bold 16px "CenturyGothicRegular";
+	line-height: 21px;
+	color: #fff;
+	margin-bottom: 26px;
+}
+
+#block-tweets span{
+	color: #ffea00;
+}
+
+#block-tweets label{
+	position: absolute;
+	font: bold 10px "CenturyGothicRegular";
+	margin-left: 47px;
+	margin-top: -22px;
+	color: #ffea00;
+}
+
+#block-tweets h4{
+	font: bold 22px "CenturyGothicRegular";
+	color: #fff;
+	margin-top: 26px;
+	margin-right: 10px;
+	float: left;
+}
+
+#block-tweets > img{
+	margin-top: 26px;
+	margin-right: 2px;
+	float: left;
+	cursor: pointer;
+}
+
+#block-contact{
+	width: 350px;
+	height: 430px;
+	float: left;
+	margin-left: 19px;
+	margin-top: 1px;
+}
+
+#block-contact h3{
+	font: bold 22px "CenturyGothicRegular";
+	color: #fff;
+	margin-top: 25px;
+	margin-right: 10px;
+	margin-bottom: 48px;
+	margin-left: 2px;
+}
+
+#block-contact img{
+	margin-right: 14px;
+	float: left;
+	margin-left: 4px;
+	margin-top: -4px;
+}
+
+#block-contact p{
+	font: bold 16px "CenturyGothicRegular";
+	line-height: 21px;
+	color: #fff;
+	margin-bottom: 26px;
+}
+
+#block-contact span{
+	color: #ffea00;
+}
+
+#block-contact h4{
+	font: bold 20px "CenturyGothicRegular";
+	color: #fff;
+	margin-top: 36px;
+	margin-bottom: -5px;
+}
+
+#form-email{
+	border: none;
+	border-bottom: 3px solid #ffea00;
+	width: 226px;
+	float: left;
+	background-color: #414146;
+	margin-right: 0;
+	margin-left: 5px;
+	margin-top: -8px;
+	font: bold 16px "CenturyGothicRegular";
+	color: #fff;
+	padding-left: 4px;
+}
+
+#follow-btn{
+	position: absolute;
+	margin-left: 0;
+	margin-top: -10px;
+	background-image: url(/images/follow.jpg);
+	border: none;
+	width: 28px;
+	height: 28px;
+}
+
+#copyright{
+	height: 70px;
+	width: 1633px;
+	background-color: #000;
+}
+
+#copyright p{
+	position: absolute;
+	font: bold 15px "CenturyGothicRegular";
+	color: #fff;
+	margin-left: 120px;
+	margin-top: 26px;
+}
+
+#copyright a{
+	font: bold 15px "CenturyGothicRegular";
+	color: #fff;
+	text-decoration: none;
+}
+
+#copyright a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#copyright-menu{
+	position: absolute;
+	margin-left: 806px;
+	margin-top: 24px;
+	width: 800px;
+}
+
+#copyright-menu li{
+	float: left;
+	margin-right: 60px;
+}
+
+#copyright-menu a{
+	font: 16px "CenturyGothicRegular";
+	padding: 25px 15px;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+#copyright-menu a:hover{
+	text-decoration: underline;
+}
